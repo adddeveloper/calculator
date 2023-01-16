@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'Comforta';
+    src: url('style/fonts/Comfortaa-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('style/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+p{
+    font-family: 'Comforta';
+    /* color: #3339; */
+}
+h1{
+    font-family: 'OpenSans';
+}
+button {
+    padding: 0 2rem;
+    font-size: 1.1rem;
+    border: solid 1px black;
+    border-radius: 20px;
+    box-shadow: 4px 4px 10px 0px #33333347;
+}
 /* scroll bar */
 ::-webkit-scrollbar {
     width: 6px;
