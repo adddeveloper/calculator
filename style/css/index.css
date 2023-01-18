@@ -1,17 +1,22 @@
 @font-face {
-    font-family: 'Comforta';
-    src: url('style/fonts/Comfortaa-VariableFont_wght.ttf');
+  font-family: 'Comforta';
+  src: url('/style/fonts/Comfortaa.ttf');
 }
 @font-face {
-    font-family: 'OpenSans';
-    src: url('style/fonts/OpenSans-VariableFont_wdth,wght.ttf');
+  font-family: 'OpenSans';
+  src: url('/style/fonts/OpenSans.ttf');
+}
+body{
+  width: 100vw;
+  height: 100vh;
 }
 p{
-    font-family: 'Comforta';
-    /* color: #3339; */
+  font-family: 'Comforta';
+  /* color: #3339; */
 }
 h1{
-    font-family: 'OpenSans';
+  font-family: 'OpenSans';
+  overflow-y: hidden !important;
 }
 button {
     padding: 0 2rem;
